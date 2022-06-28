@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<title>Menu AND Online Ordering</title>
+<style>
+.heading1{
+height: 30px;
+background-color: goldenrod;
+font-size: 28px;
+padding-left: 35px;
+background-image: url("border.jpg");
+background-repeat: no-repeat;
+background-position: right;
+}
+.divline{
+height: 2px;
+background-color: goldenrod;
+}
+.heading2{
+height: 30px;
+background-color: red;
+font-size: 28px;
+padding-left: 35px;
+background-image: url("border.jpg");
+background-repeat: no-repeat;
+background-position: right;
+}
+.divline2{
+height: 2px;
+background-color: red;
+}
+li{
+list-style-type: none;
+padding: 5px;
+font-size: 20px;
+}
+.divOne{
+background-color: black;
+color: white;
+width: 49%;
+position: relative;
+display: inline-block;
+}
+.divTwo{
+background-color: black;
+color: white;
+display: inline-block;
+width: 50%;
+position: relative;
+float: right;
+  
+
+}
+.spanright{
+float: right;
+}
+
+
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="coffe.css" rel="stylesheet" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+$("li").click(function () {
+alert("Your selected item is: "+$(this).text());
+});
+});
+
+</script>
+</head>
+<body>
+<div class="divOne">
+<br>
+<div class="divline"></div>&nbsp;
+<h2 class="heading1">COFFEE</h2>
+&nbsp;<div class="divline"></div>&nbsp;
+<span class="spanright">--------&nbsp; &nbsp; --------&nbsp; &nbsp; --------</span>
+<ul>
+<li><label>Coffee</label><span class="spanright"> 2.25 &nbsp; &nbsp; 2.50 &nbsp; &nbsp; 2.75</span></li>
+<li><label>Cafe Au Lait</label><span class="spanright"> 3.00 &nbsp; &nbsp; 3.50 &nbsp; &nbsp; 4.00</span></li>
+<li><label>Iced Cofee</label><span class="spanright"> &nbsp; &nbsp; 2.50 &nbsp; &nbsp; 2.75</span></li>
+<li><label>Nitro Cold Brew</label><span class="spanright"> &nbsp; &nbsp; 4.50 &nbsp; &nbsp; 6.50</span></li>
+<li><label>Espresso</label><span class="spanright"> 2.50 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></li>
+<li><label>Americano</label><span class="spanright"> 2.25 &nbsp; &nbsp; 2.50 &nbsp; &nbsp; 2.75</span></li>
+<li><label>Latte</label><span class="spanright"> 3.00 &nbsp; &nbsp; 3.50 &nbsp; &nbsp; 4.00</span></li>
+<li><label>Breve</label><span class="spanright"> 3.50 &nbsp; &nbsp; 4.00 &nbsp; &nbsp; 4.50</span></li>
+<li><label>Cappuccino</label><span class="spanright"> 3.50 &nbsp; &nbsp; 4.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></li>
+<li><label>Mocha</label><span class="spanright"> 4.00 &nbsp; &nbsp; 4.50 &nbsp; &nbsp; 5.00</span></li>
+<li><label>White Mocha</label><span class="spanright"> 4.20 &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 5.25</span></li>
+</ul>
+
+<br>
+<div class="divline"></div>&nbsp;
+<h2 class="heading1">TEA</h2>
+&nbsp;<div class="divline"></div>&nbsp;
+<span class="spanright">--------&nbsp; &nbsp; --------&nbsp; &nbsp; --------</span>
+<ul>
+<li><label>Hot Tea</label><span class="spanright"> &nbsp; &nbsp; 2.75 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></li>
+<li><label>Iced Tea</label><span class="spanright"> &nbsp; &nbsp; 3.00 &nbsp; &nbsp; 3.50</span></li>
+<li><label>Chai Latte</label><span class="spanright"> 3.50 &nbsp; &nbsp; 4.00 &nbsp; &nbsp; 4.50</span></li>
+<li><label>Iced Chai Latte</label><span class="spanright"> &nbsp; &nbsp; 4.00 &nbsp; &nbsp; 4.50</span></li>
+<li><label>Kombucha</label><span class="spanright"> &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 4.75 </span></li>
+</ul>
+<br>
+<br>
+<br>
+
+</div>
+
+<div class="divTwo">
+<br>
+<div class="divline2"></div>&nbsp;
+<h2 class="heading2">ORIGINALS</h2>
+&nbsp;<div class="divline2"></div>&nbsp;
+<span class="spanright">--------&nbsp; &nbsp; --------&nbsp; &nbsp; --------</span>
+<ul>
+<li><label>Mexican Mocha</label><span class="spanright"> 4.25 &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Mayan Mocha</label><span class="spanright"> 4.25 &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Horchata Latte</label><span class="spanright"> 4.25 &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Borgia</label><span class="spanright"> 4.25 &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Sweet Romano</label><span class="spanright"> 4.25 &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Creme Brulee</label><span class="spanright"> 4.25 &nbsp; &nbsp; 4.75 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Espresso Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.00 &nbsp; &nbsp; 5.00</span></li>
+<li><label>Mocha Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.00 &nbsp; &nbsp; 5.00</span></li>
+<li><label>White Mocha Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.25 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Caramel Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.25 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Thunderbean Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.25 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Churro Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.25 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Chai Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.25 &nbsp; &nbsp; 5.25</span></li>
+<li><label>Green Tea Freeze</label><span class="spanright"> &nbsp; &nbsp; 4.00 &nbsp; &nbsp; 5.00</span></li>
+</ul>   
+
+<div class="divline2"></div>&nbsp;
+<h2 class="heading2">HOT COCOA</h2>
+&nbsp;<div class="divline2"></div>&nbsp;
+<span class="spanright">--------&nbsp; &nbsp; --------&nbsp; &nbsp; --------</span>
+<ul>
+<li><label>Hot Cocoa</label><span class="spanright"> 2.75 &nbsp; &nbsp; 3.25 &nbsp; &nbsp; 3.75</span></li>
+<li><label>Mexican Hot Cocoa</label><span class="spanright"> 3.00 &nbsp; &nbsp; 3.50 &nbsp; &nbsp; 4.00</span></li>
+<li><label>Mayan Hot Cocoa</label><span class="spanright"> 3.00 &nbsp; &nbsp; 3.50 &nbsp; &nbsp; 4.00</span></li>
+<li><label>White Hot Cocoa</label><span class="spanright"> 3.00 &nbsp; &nbsp; 3.50 &nbsp; &nbsp; 4.00</span></li>   
+</ul>
+</div>
+</body>
+</html>
